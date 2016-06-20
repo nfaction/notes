@@ -4,3 +4,4 @@
 * <http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask>
 * <http://blog.miguelgrinberg.com/post/writing-a-javascript-rest-client>
 * <http://mattrichardson.com/Raspberry-Pi-Flask/>
+* <http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340>
