@@ -5,3 +5,6 @@
 * <http://blog.miguelgrinberg.com/post/writing-a-javascript-rest-client>
 * <http://mattrichardson.com/Raspberry-Pi-Flask/>
 * <http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340>
+* <https://www.raspberrypi.org/forums/viewtopic.php?f=34&t=81277>
+* <http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340>
+
