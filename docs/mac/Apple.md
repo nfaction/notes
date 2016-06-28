@@ -1,8 +1,16 @@
 # Apple OSX Tips and Tricks
+## Keyboard Shortcuts
+
+<https://github.com/eczarny/spectacle#keyboard-shortcuts>
+
 ## Tools
 
 Colordiff:
 <https://gist.github.com/dansimau/3104183>
+
+## Applications
+
+<http://www.danrodney.com/mac/recommendedprograms.html>
 
 ## Hardware
 
