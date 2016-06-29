@@ -8,6 +8,8 @@
 Colordiff:
 <https://gist.github.com/dansimau/3104183>
 
+Homebrew: <http://apple.stackexchange.com/questions/69223/how-to-replace-mac-os-x-utilities-with-gnu-core-utilities>
+
 ## Applications
 
 <http://www.danrodney.com/mac/recommendedprograms.html>
