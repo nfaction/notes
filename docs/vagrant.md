@@ -1,0 +1,9 @@
+# Vagrant
+##Helpful links
+* http://www.cyberciti.biz/cloud-computing/use-vagrant-to-create-small-virtual-lab-on-linux-osx/
+* http://terriyu.info/blog/static/code/Vagrantfile
+* http://www.sitepoint.com/vagrantfile-explained-setting-provisioning-shell/
+* http://docs.vagrantup.com/v2/multi-machine/
+* http://docs.vagrantup.com/v2/boxes.html
+* http://docs.vagrantup.com/v2/vagrantfile/tips.html
+* https://github.com/patrickdlee/vagrant-examples

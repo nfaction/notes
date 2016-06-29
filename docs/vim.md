@@ -30,3 +30,14 @@
 		* :vsp <filename>
 * Delete to space
 	* dt <char> or space
+* Ctrl+x, Ctrl+e, edit file, then :wq to run command
+* :normal <vim commands>
+* :reg or :registers
+* :set relativenumber
+* :r!ls -l (loads output into vim)
+* :!<bash command> (run, then go back)
+* :Man man (Opens into split window)
+	* :source $VIMRUNTIME/ftplugin/man.vim
+* vim -p *.js (load into tabs)
+	* gt to switch tabs
+* Edit path in INSERT MODE, Ctrl+x, Ctrl+f
