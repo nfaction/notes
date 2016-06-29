@@ -3,6 +3,10 @@
 
 <https://github.com/eczarny/spectacle#keyboard-shortcuts>
 
+### Lock Screen
+
+Ctrl + Shift + Eject
+
 ## Tools
 
 Colordiff:
@@ -42,3 +46,26 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 
 <http://apple.stackexchange.com/questions/30238/how-to-enable-os-x-screen-sharing-vnc-through-ssh>
 
+## Mount HFS+ in Ubuntu
+
+* <http://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os>
+* <http://superuser.com/q/84446/152045>
+
+	```
+	First, make sure that you have hfsprogs installed. Example installation command:
+	
+	sudo apt-get install hfsprogs
+	
+	Next, mount or remount the HFS+ drive; commands need to be as follows:
+	
+	sudo mount -t hfsplus -o force,rw /dev/sdXY /media/mntpoint
+	
+	or
+	
+	sudo mount -t hfsplus -o remount,force,rw /mount/point
+	...
+	
+	Finally, if the drive was improperly unmounted or has otherwise become partially corrupted run fsck.hfsplus ... as such:
+	
+	sudo fsck.hfsplus -f /dev/sdXY
+	```

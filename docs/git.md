@@ -3,8 +3,10 @@
 ## Helpful Sites
 * <http://git-scm.com/docs/git-stash>
 * <http://git-merge.com/>
+* <https://githowto.com/getting_old_versions>
 
-## Global User
+## User Management
+### Global User
 
 * Changing username on remote box:
 	* <https://help.github.com/articles/setting-your-email-in-git/>
@@ -16,6 +18,9 @@
 	git config --global user.email "nfaction@gmail.com"
 	git config --global user.name "Matt DePorter"
 	```
+
+### Changing GitHub Username
+<https://help.github.com/articles/what-happens-when-i-change-my-username/>
 
 ## Managing branches, remotes and PR
 

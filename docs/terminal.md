@@ -38,3 +38,11 @@ bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 Type the first character(s) of something you want to find in your history and press the 'up' arrow :arrow_up:
 ```
+
+## Python Virtual Environments
+
+* <http://jonathanchu.is/posts/virtualenv-and-pip-basics/>
+
+## Mac iTerm
+
+<http://dmytro.github.io/2012/07/18/iterm-tmux-emacs.html>

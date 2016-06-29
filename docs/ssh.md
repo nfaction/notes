@@ -21,3 +21,25 @@
 	```
 	
 <http://superuser.com/questions/88470/how-to-use-mac-os-x-keychain-with-ssh-keys>
+
+## SSH Config
+
+<http://serverfault.com/questions/139870/stop-ssh-client-from-offering-all-the-public-keys-it-can-find>
+
+Basically, specifying IdentityFiles just adds keys to a current list the SSH agent already presented to the client.
+
+Try overriding this behaviour with this at the bottom of your .ssh/config file:
+
+```
+Host *
+  IdentitiesOnly yes
+```
+
+You can also override this setting on the host level, e.g.:
+
+```
+Host foo
+  User bar
+  IdentityFile /path/to/key
+  IdentitiesOnly yes
+```

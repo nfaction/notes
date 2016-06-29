@@ -3,6 +3,8 @@
 
 * <https://gist.github.com/MohamedAlaa/2961058>
 * <http://www.dayid.org/os/notes/tm.html>
+* <https://github.com/tmux-plugins/tmux-resurrect>
+* <https://github.com/tmux-plugins/tmux-continuum>
 ## Detach all other users
 
 ```
