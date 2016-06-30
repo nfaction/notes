@@ -43,6 +43,14 @@ Type the first character(s) of something you want to find in your history and pr
 
 * <http://jonathanchu.is/posts/virtualenv-and-pip-basics/>
 
-## Mac iTerm
+## Mac 
+
+* ColorSchemes
+	* <http://color.smyck.org/>
+	* <https://github.com/m42i/Smyck-Color-Scheme>
+
+### iTerm
 
 <http://dmytro.github.io/2012/07/18/iterm-tmux-emacs.html>
+
+### Terminal

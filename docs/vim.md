@@ -4,6 +4,20 @@
 
 * <http://vim.wikia.com/wiki/Converting_tabs_to_spaces>
 
+## Themes
+
+* <http://www.mkyong.com/linux/how-to-install-a-vim-color-scheme/>
+	
+	```
+	mv ~/Downloads/vim-distinguished-develop/colors/*.vim ~/.vim/colors/
+	syntax on
+	colorscheme distinguished
+	
+	OR
+	
+	:colorscheme smyck
+	```
+
 ## Tricks
 
 * Multiple windows
