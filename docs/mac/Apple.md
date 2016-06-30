@@ -3,6 +3,13 @@
 
 <https://github.com/eczarny/spectacle#keyboard-shortcuts>
 
+## Window Management
+
+* BetterTouchTool
+	* <https://www.boastr.net/>
+* SizeUp
+	* <http://www.irradiatedsoftware.com/sizeup/>
+
 ### Lock Screen
 
 Ctrl + Shift + Eject
