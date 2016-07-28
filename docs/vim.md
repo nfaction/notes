@@ -55,3 +55,11 @@
 * vim -p *.js (load into tabs)
 	* gt to switch tabs
 * Edit path in INSERT MODE, Ctrl+x, Ctrl+f
+* Case insensitive search: <http://stackoverflow.com/questions/2287440/how-to-do-case-insensitive-search-in-vim>
+  
+  ```
+  You need to use the \c escape sequence. So:
+
+  /\ccopyright
+  ```
+
