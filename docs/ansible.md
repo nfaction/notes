@@ -16,4 +16,5 @@
 
 ## Other notes
 * <https://groups.google.com/forum/#!msg/ansible-project/iiLdiyGXlEw/0eJziTeHLtAJ>
+* <https://github.com/iPlantCollaborativeOpenSource/clank/blob/master/callback_plugins/human_log.py#L37>
 
