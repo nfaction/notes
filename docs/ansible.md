@@ -12,4 +12,8 @@
 ## Best Practices
 
 * <http://hakunin.com/six-ansible-practices#avoid-perpetually-changed-and-skipping-tasks>
+* <https://gist.github.com/marktheunissen/2979474>
+
+## Other notes
+* <https://groups.google.com/forum/#!msg/ansible-project/iiLdiyGXlEw/0eJziTeHLtAJ>
 
