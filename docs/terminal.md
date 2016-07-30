@@ -54,3 +54,7 @@ Type the first character(s) of something you want to find in your history and pr
 <http://dmytro.github.io/2012/07/18/iterm-tmux-emacs.html>
 
 ### Terminal
+
+## Bash
+
+* <http://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/>
