@@ -5,6 +5,7 @@
 
 ## Window Management
 
+* Spectacle
 * BetterTouchTool
 	* <https://www.boastr.net/>
 * SizeUp
@@ -75,4 +76,15 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 	Finally, if the drive was improperly unmounted or has otherwise become partially corrupted run fsck.hfsplus ... as such:
 	
 	sudo fsck.hfsplus -f /dev/sdXY
+	```
+	
+## Troubleshooting
+
+* Busted clipboard: <http://apple.stackexchange.com/questions/31866/copy-and-cut-sometimes-dont-work>
+
+	```
+	launchctl list | grep com.apple.pboard
+	
+	launchctl stop com.apple.pboard
+	launchctl start com.apple.pboard
 	```
