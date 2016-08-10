@@ -1,5 +1,24 @@
 # Terminal Configurations
 
+## iTerm
+
+* <https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x>
+	* Forward
+		
+		```
+		Keyboard Shortcut: ⌥→
+		Action: Send Escape Sequence
+		Esc+: f
+		```
+		
+	* Backward
+
+		```
+		Keyboard Shortcut: ⌥←
+		Action: Send Escape Sequence
+		Esc+: b
+		```
+
 ## OS X Terminal
 
 * <http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/>
