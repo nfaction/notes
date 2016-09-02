@@ -27,6 +27,9 @@
 ## JSON
 
 * <http://docs.python-guide.org/en/latest/scenarios/json/>
+* <http://www.pythonforbeginners.com/requests/using-requests-in-python>
+* <http://docs.python-requests.org/en/latest/api/>
+* <http://docs.python-requests.org/en/latest/user/quickstart/>
 
 ### Dependencies
 
