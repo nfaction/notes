@@ -39,6 +39,13 @@ pip install ipython requests
 
 
 ### Code
+```
+$ curl -d '{"tmode":2,"t_cool": 75}' 192.168.1.XXX/tstat
+{"success": 0}
+$ curl 192.168.1.XXX/tstat
+{"temp":76.00,"tmode":2,"fmode":0,"override":1,"hold":0,"t_cool":75.00,"tstate":2,"fstate":1,"time":{"day":3,"hour":23,"minute":21},"t_type_post":0}
+```
+
 ``` python
 import requests
 import json
