@@ -24,6 +24,26 @@
 
 ## Managing branches, remotes and PR
 
+### Cherry-pick code from another repository
+
+<http://stackoverflow.com/questions/5120038/is-it-possible-to-cherry-pick-a-commit-from-another-git-repository>
+
+```
+Here's an example of the remote-fetch-merge.
+
+cd /home/you/projectA
+git remote add projectB /home/you/projectB
+git fetch projectB
+Then you have a choice:
+
+git merge projectB/master
+or:
+
+git cherry-pick <first_commit>..<last_commit>
+```
+
+### Managing Remote Git Repositories
+
 ```
 git fetch origin dev
  
