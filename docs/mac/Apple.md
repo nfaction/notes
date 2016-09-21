@@ -3,6 +3,15 @@
 
 <https://github.com/eczarny/spectacle#keyboard-shortcuts>
 
+## Open With default option
+
+1. Select a file.
+1. Get info (right click or [CMD] + [I]).
+1. Select your text editor under the Open with panel.
+1. Click Change all.
+
+<http://superuser.com/questions/578552/osx-stop-xcode-from-opening-ruby-files>
+
 ## Window Management
 
 * Spectacle
