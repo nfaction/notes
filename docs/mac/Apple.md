@@ -63,6 +63,10 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 
 <http://apple.stackexchange.com/questions/30238/how-to-enable-os-x-screen-sharing-vnc-through-ssh>
 
+## Encryption
+
+* <http://gizmodo.com/how-to-easily-encrypt-files-on-mac-1785467654>
+
 ## Mount HFS+ in Ubuntu
 
 * <http://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os>
