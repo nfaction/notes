@@ -67,6 +67,21 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 
 * <http://gizmodo.com/how-to-easily-encrypt-files-on-mac-1785467654>
 
+## Time Machine
+
+* Manually delete old time machine backups
+	* CLI
+
+		```
+		sudo tmutil delete /Volumes/drive_name/Backups.backupdb/old_mac_name
+		
+		OR
+		
+		sudo tmutil delete /Volumes/drive_name/Backups.backupdb/mac_name/YYYY-MM-DD-hhmmss
+		```
+		
+	* <http://apple.stackexchange.com/questions/39287/how-can-i-manually-delete-old-backups-to-free-space-for-time-machine/55646>
+
 ## Mount HFS+ in Ubuntu
 
 * <http://askubuntu.com/questions/332315/how-to-read-and-write-hfs-journaled-external-hdd-in-ubuntu-without-access-to-os>
