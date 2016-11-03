@@ -58,3 +58,8 @@ Type the first character(s) of something you want to find in your history and pr
 ## Bash
 
 * <http://www.thegeekstuff.com/2010/03/awk-arrays-explained-with-5-practical-examples/>
+
+
+## Browser/Web
+
+* lynx: <http://www.cyberciti.biz/faq/unix-linux-get-the-contents-of-a-webpage-in-a-terminal/>
