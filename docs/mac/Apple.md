@@ -116,3 +116,23 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 	launchctl stop com.apple.pboard
 	launchctl start com.apple.pboard
 	```
+	
+* DNS issues, or outdated cache
+
+	Any version of macOS after 10.9.x for the exception of macOS 10.10.1 - 10.10.3 inclusive will use the same two commands to flush the DNS cache which is:
+
+	```
+	sudo dscacheutil -flushcache
+	sudo killall -HUP mDNSResponder 
+	```
+
+	For macOS 10.10.1 - 10.10.3 you can reset the DNS cache by running:
+
+	```
+	sudo discoveryutil mdnsflushcache
+	sudo discoveryutil udnsflushcaches
+	```
+
+	In macOS 10.10 Yosemite, Apple replaced the aging mDNSResponder with discoveryd but many of Apple's customers (including Rackspace) complained to Apple about the many serious bugs discoveryd contained. This was one of the primary reasons it took us almost 3 months before we allowed Rackers to update to macOS 10.10 from macOS 10.9.
+
+	Apple replaced discoveryd and went back to the aging but trusty mDNSResponder in macOS 10.10.4 which is why the syntax changed.
