@@ -1,6 +1,19 @@
 # OS X Bootable USB Installers
 ## Make OS X USB Installer
 
+### macOS Sierra
+
+Instructions: <http://www.macworld.com/article/3092900/macs/how-to-create-a-bootable-macos-sierra-installer-drive.html>
+
+1. Download OS X from the Apple Store
+1. Format USB and let `Disk Utility` call the drive `Untitled`
+1. Open up Terminal and issue the following commands:
+
+	```
+	sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ macOS\ Sierra.app
+	```
+
+### Mac OS X El Capitan
 ```
 All steps below MUST be done on a Mac with at least Mavericks installed(10.9)1. Identify USB (OS X Installer will wipe entire drive!!) df -h e.g. /dev/disk2s2    30048176  10556744  19491432    36%  1319591  243642935%   /Volumes/Install OS X Mavericks2. Download El Capitan from Apple App Store (This can also be done forYosemite)3. El Capitan downloads into /Applications4. Install to drive sudo /Applications/Install\ OS\ X\ El\Capitan.app/Contents/Resources/createinstallmedia --volume/Volumes/Install\ OS\ X\ Mavericks --applicationpath /Applications/Install\OS\ X\ El\ Capitan.app --nointeractione.g. IPC-MACHINE:Applications mattd$ sudo /Applications/Install\ OS\ X\ El\Capitan.app/Contents/Resources/createinstallmedia --volume/Volumes/Install\ OS\ X\ Mavericks --applicationpath /Applications/Install\OS\ X\ El\ Capitan.app --nointeraction Password: Erasing Disk: 0%... 10%... 20%... 30%...100%... Copying installer files to disk... Copy complete. Making disk bootable... Copying boot files... Copy complete. Done.5. Look for new volume name: df -he.g. /dev/disk2s2    30048176  12010000  18038176    40%  1501248  225477240%   /Volumes/Install OS X El Capitan6. Eject and Install.  Have fun!
 ```
