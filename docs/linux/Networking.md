@@ -20,3 +20,11 @@ tcpdump -i eth1 arp
 ## Routing
 
 <http://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/>
+
+## DNS Cache
+
+Clearing cache: <https://www.reddit.com/r/vim/comments/600frr/tmux_tabs_splits_workflow/>
+
+```
+nscd -i hosts
+```
