@@ -23,8 +23,48 @@ tcpdump -i eth1 arp
 
 ## DNS Cache
 
-Clearing cache: <https://www.reddit.com/r/vim/comments/600frr/tmux_tabs_splits_workflow/>
+Clearing cache: <https://www.liquidweb.com/kb/flush-dns-cache/>
 
-```
-nscd -i hosts
-```
+* Windows
+
+	```
+	ipconfig /flushdns
+	```
+
+* Mac
+	* Mac OS X versions 10.10.4 and newer:
+	
+		```
+		dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+		```
+		
+	* Mac OS X versions 10.10-10.10.3:
+
+		```
+		sudo discoveryutil mdnsflushcache; sudo discoveryutil udnsflushcaches
+		```
+		
+	* Mac OS X versions 10.9:
+
+		```
+		sudo killall -HUP mDNSResponder
+		```
+
+	* Mac OS X versions 10.6-10.8:
+
+		```
+		sudo dscacheutil -flushcache
+		```
+		
+* Linux
+
+	```
+	sudo nscd -i hosts
+	
+	OR
+	
+	sudo nscd -I hosts
+	
+	# Debian/Ubuntu
+	sudo service dns-clean restart
+	```

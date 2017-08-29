@@ -5,6 +5,7 @@
 * <http://www.dayid.org/os/notes/tm.html>
 * <https://github.com/tmux-plugins/tmux-resurrect>
 * <https://github.com/tmux-plugins/tmux-continuum>
+* <https://www.reddit.com/r/vim/comments/600frr/tmux_tabs_splits_workflow/>
 ## Detach all other users
 
 ```
