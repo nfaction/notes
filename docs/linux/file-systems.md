@@ -1,5 +1,18 @@
 # Linux File Systems
 
+## Adding Hard Drives
+
+* Refresh dev: <http://www.ehowstuff.com/how-to-add-a-new-hard-disk-without-rebooting-on-centos-7-rhel-7/>
+
+	```
+	[root@centos7 ~]# ls /sys/class/scsi_host/
+	host0  host1  host2
+	
+	[root@centos7 ~]# echo "- - -" > /sys/class/scsi_host/host0/scan
+	[root@centos7 ~]# echo "- - -" > /sys/class/scsi_host/host1/scan
+	[root@centos7 ~]# echo "- - -" > /sys/class/scsi_host/host2/scan
+	```
+
 ## Set Setuid, Setgid and Sticky bit in Linux
 
 ### Sticky bits

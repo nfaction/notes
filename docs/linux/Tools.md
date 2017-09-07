@@ -5,3 +5,7 @@
 ## Troubleshooting APT
 
 <https://help.ubuntu.com/community/PackageManagerTroubleshootingProcedure>
+
+## pushd and popd
+
+* <https://en.wikipedia.org/wiki/Pushd_and_popd>
