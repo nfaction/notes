@@ -1,5 +1,15 @@
 # Linux File Systems
 
+## dstat
+
+* <https://www.linuxserver.io/2017/09/18/dstat-how-to-check-disk-io-in-linux/>
+
+```
+dnf install dstat
+
+dstat -tdD total,sda,sdb,sdc,sdd 60
+```
+
 ## Adding Hard Drives
 
 * Refresh dev: <http://www.ehowstuff.com/how-to-add-a-new-hard-disk-without-rebooting-on-centos-7-rhel-7/>
